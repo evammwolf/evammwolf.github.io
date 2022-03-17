@@ -1,0 +1,246 @@
+html{
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    color: hsl(142 13% 9%);
+    font-size: 16px;
+    scroll-padding-top: 60px;
+    scroll-behavior: smooth;
+
+}
+body {
+    margin: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100px;
+    margin: 50px;
+
+}
+
+table, td, tr {
+    margin: 2px ;
+    padding-right: 50px;
+
+
+}   
+
+td {
+    vertical-align: top;
+    width: 250px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    padding-left: 0;
+    margin: 5px;
+    line-height: 1.3em;
+}
+
+tbody{
+    display:block;
+    width: 600px;
+    height: fit-content;
+
+}
+
+.navbar{
+    overflow: hidden;
+    z-index: 1;
+    height: 60px;
+    background-color: hsl(142 13% 71%);
+    position: fixed ;
+    opacity: 0.8;
+    width: 100%;
+    top: 0;
+}
+
+.navbar li {
+    display: inline;
+
+}
+
+.navbar a {
+    float: left;
+    background-color: hsl(142 13% 71%);
+    border-radius: 0px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 5px;
+    
+
+    
+}
+
+.navbar a:visited{
+    background-color: hsl(142 13% 71%);
+
+}
+
+
+
+.wrapper{
+    grid-auto-columns: min-content max-content;
+    grid-gap: 10vw;
+    position: relative;
+    margin-top: 60px;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px ;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: hsl(142 13% 90%) ;
+    color: hsl(142 33% 9%);
+    text-align: center;
+    margin-top: 3px;
+}
+
+a:visited{
+    background-color: hsl(142 13% 60%);
+}
+
+a:hover{
+    background-color: hsl(142 13% 65%);
+    color:hsl(142 33% 99%);
+    transform: scale(1.1);
+}
+
+a:active{
+    background-color: hsl(142 13% 55%);
+    color:hsl(142 33% 99%)
+}
+
+a.contact {
+    width: auto;
+}
+
+.styled-headline h2 {
+    display: inline-block;
+    background-color: #ffffff;
+    width: auto;
+    padding-right: 15px;
+    letter-spacing: 1px;
+}
+
+.styled-headline{
+    position: relative;
+}
+
+.styled-headline::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color: hsl(142 13% 71%);
+    height: 3px;
+    width: 90%;
+    z-index: -1;
+    margin-right: 10px;
+}
+
+
+.image{
+    grid-column: 1;
+    margin: 50px;
+}
+
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 300px;
+   
+}
+
+
+.contact{
+    grid-column: 1/3;
+grid-row: 1;
+height: 100%;
+background-color: hsl(142 13% 94%);
+width: 300px;
+
+}
+
+.surname{
+    color:hsl(142 13% 35%);
+}
+
+
+.wrapper2{
+    display: grid;
+    grid-column: 3;
+    position: relative;
+    
+}
+
+ .datawrapper{
+     width: 100%;
+ }
+
+ .data{
+    grid-column: 3;
+    grid-row: 3;
+    width: fit-content;
+    height: fit-content;
+}
+
+.bildung{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+.berufserfahrung{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.freelance{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.sprachen tr {
+    height: 20px;
+
+}
+
+.hobbies{
+    grid-column: 2;
+    grid-row: 5;
+    width: 600px;
+    color:hsl(142 13% 50%);
+    text-transform: uppercase;
+    padding: 20px;
+    align-content: center;
+    margin: 20px;
+}
+
+.dates{
+    grid-column: 2;
+    grid-row: 3;
+    width: 200px;
+    height: fit-content;
+    display:block;
+    color: hsl(142 13% 35%);
+}
+
+.sub-info {
+    color: hsl(142 13% 50%);
+}
+
+
+
