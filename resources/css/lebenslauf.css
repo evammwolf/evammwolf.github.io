@@ -240,14 +240,21 @@ a.contact {
   .datawrapper a {
     display: none;
   }
-.freelance {
-  margin-top: 30vh;
-}
+
+  .freelance {
+    padding-top: 5vh;
+  }
 
   .hobbies {
-    margin-bottom: 20vh;
+    margin-bottom: 23vh;
   }
+
   .berufserfahrung {
     break-after: column;
   }
+}
+
+@page {
+  size: A4;
+  margin: 0;
 }
