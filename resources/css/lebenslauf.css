@@ -21,14 +21,14 @@ img {
 
 table, td, tr {
   margin: 2px;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 td {
   margin-bottom: 10px;
-  padding-bottom: 30px;
+  padding: .5rem;
   vertical-align: top;
-  width: 250px;
+  width: 350px;
 }
 
 p {
@@ -61,7 +61,7 @@ tbody {
 
 .navbar a {
   background-color: hsl(142 13% 71%);
-  border-radius: 0px;
+  border-radius: 0;
   float: left;
   margin: 0 5px;
   padding: 5px;
@@ -72,11 +72,10 @@ tbody {
   background-color: hsl(142 13% 71%);
 }
 
-
 .wrapper {
   display: grid;
   grid-auto-columns: min-content max-content;
-  grid-gap: 10vw;
+  grid-gap: 8vw;
   margin-top: 60px;
   position: relative;
 }
@@ -116,7 +115,8 @@ a.contact {
   background-color: #fff;
   display: inline-block;
   letter-spacing: 1px;
-  padding-right: 15px;
+  padding-right: 1rem;
+  margin-top: 1rem;
   width: auto;
 }
 
@@ -129,14 +129,13 @@ a.contact {
   content: "";
   display: block;
   height: 3px;
-  left: 0%;
+  left: 0;
   margin-right: 10px;
   position: absolute;
   top: 50%;
   width: 90%;
   z-index: -1;
 }
-
 
 .image {
   grid-column: 1;
@@ -180,6 +179,12 @@ a.contact {
   grid-row: 3;
   height: fit-content;
   width: fit-content;
+}
+
+.intro {
+  padding-top: 2rem;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .bildung {
@@ -242,15 +247,15 @@ a.contact {
   }
 
   .freelance {
-    padding-top: 5vh;
-  }
-
-  .hobbies {
-    margin-bottom: 23vh;
+    padding-top: 3rem;
   }
 
   .berufserfahrung {
-    break-after: column;
+    padding-bottom: 2rem;
+  }
+
+  .hobbies {
+    margin-bottom: 25vh;
   }
 }
 
